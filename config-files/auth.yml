@@ -6,8 +6,8 @@ spring:
       enabled: true  
   data:
     mongo:
-      uri: mongodb+srv://starter:starter@cluster0-lpgfm.mongodb.net/test?retryWrites=true  
-      databaseName: auth
+      uri: mongodb://localhost:27017
+      databaseName: spring
   application:
     name: auth
   rabbitmq:
